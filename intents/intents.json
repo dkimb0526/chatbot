@@ -9,8 +9,8 @@
 	"responses":["Sad to see you go :(", "Talk to you later","Good bye!"]
 },
 	{"tag":"age",
-	"patterns":["how old", "how old is David?", "what is your age?","how old are you","age?"],
-	"responses":["I am less than a year old", "Less than a year!"]
+	"patterns":["how old", "how old is David?", "what is David's age", "what is your age?","how old are you","age?"],
+	"responses":["I am less than a year old, David is born 1997"]
 
 },
 	{"tag":"name",
@@ -29,5 +29,49 @@
 	{"tag":"love",
 	"patterns":["what is love?","love?","define love", "do you know what love?", "can you tell me about love?"],
 	"responses":["Baby don't hurt me, no more.","According to google: an intense feeling of deep affection", "I love you :D"]
+},
+	{"tag":"from",
+	"patterns":["where is David from?", "where is david?"],
+	"responses":["David is from China, but he currently resides in New Jersey", "He lives in New Jersey", "His from New Jersey USA"]
+},
+	{"tag":"about david",
+	"patterns":["tell me about David","David", "what can you tell me about David"],
+	"responses":["David was a business analytics major", "David went on a sabbatical", "David decides to pursue a new career path in programming",
+		"David taught himself how to program."]
+},
+	{"tag":"interest",
+	"patterns":["what does David like to do?", "what are David's hobbies", "what does david like to on his free time?",
+		"What are david's interests?","what does david like to do outside of work","hobbies","interests"],
+	"responses":["David enjoys playing FPS games on his PC","David likes to excercise: weight lifting, and running",
+		"David loves spending time with his friends", "Programming = david likes"]
+},
+	{"tag":"weakness",
+	"patterns":["what is one of David's weakness", "weakness", "what are David's weaknesses"],
+	"responses":["Sometime he can be too absorb by social media", "One of David's weakness is that he is too impatient"]
+},
+	{"tag":"improve",
+	"patterns":["how has david been trying to improve himself", "how is he improving himself"],
+	"responses":["David has been trying to limit his time on social medias", "David tries to be more calm with his emotions"]
+},
+	{"tag":"future",
+	"patterns":["where do you see yourself in 5 years?", "what does david see himself in 5 years?", "where does david see himself in the future?"],
+	"responses":["Within 5 years, David will be working in Google","Might sound cliche, but David wants to work for Google"
+		, "In the future, David will work for Google"]
+},
+	{"tag":"strength",
+	"patterns":["what is your biggest strength?","What is one of David's stength?","What are David's strength?"],
+	"responses":["David's biggest strength is his personality, he makes people laugh", "One of David's strength is his open minded, his easy to agree with",
+		"One of David's strength is his open minded, his easy to aggree with", "His love for people, he genuinely believes in the goodness of them"]
+},
+	{"tag":"why",
+	"patterns":["why should we hire him?","why should he be hired?","why?"],
+	"responses":["Because David is handsome", "you should hire him because he is great and he made me", "Because he needs a job :)",
+		"You should hire David because he will be a great addition to the team"]
+},
+	{"tag":"describe",
+	"patterns":["how would people describe David?", "how would you describe David?", "what does other people think of David"],
+	"responses":["David is loved", "David is joyful", "David is hiliarious","David is funny","David is good looking","David is lovely",
+		"David is built different","David is optimistic","David is beautiful"]
 }
+
 ]}
